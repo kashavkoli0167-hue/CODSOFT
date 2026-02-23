@@ -45,10 +45,15 @@ This project was developed to practice real-world JavaScript concepts such as:
 
 ## Output
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2d47fb8f-48e2-444a-8f8e-c47006c94306" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0a3148b2-9060-4638-b6ba-e79c789d85d2" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c03a7e55-2071-4822-a379-d3b8618eb3e9" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5cdd0af8-8bc3-40ef-895d-e5575436de3e" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2140f48f-3233-4019-90fa-dac6a623ddb6" />
 
 
 ## 👨‍💻 Author
 
-**Kashav**
+  **Kashav**
 
 Feel free to fork this project and give feedback!
