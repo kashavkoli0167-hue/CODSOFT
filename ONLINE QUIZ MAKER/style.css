@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: #18182f;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: linear-gradient(145deg, #22223b, #1f1f3a);
+  padding: 35px 32px;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  animation: 4s ease;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #6e3ccb;
+  padding: 12px 0px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+a:hover {
+  background-color: #5936a2;
+  transform: scale(1.03);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #e7e7ff;
+  letter-spacing: 3px;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2c2c4a;
+  color: #f5f5f5;
+  font-size: 16px;
+  transition: 0.3s;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 8px #6f42c1;
+  background-color: #353559;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  background: #6f42c1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+button:hover {
+  background: #5936a2;
+  transform: scale(1.03);
+}
+
+#question {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 25px;
+  color: #ddd;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+.option-btn {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #7b4dff, #6a5cff);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option-btn:hover {
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+.option-btn.correct {
+  background: #2ecc71 !important;
+}
+
+.option-btn.wrong {
+  background: #e74c3c !important;
+}
+/* ===== RESULT PAGE ===== */
+
+#resultText {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+#percentText {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 8px;
+  color: #cfcfff;
+}
+
+#message {
+  text-align: center;
+  font-size: 20px;
+  margin: 18px 0 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #aab0ff;
+}
+
+/* result buttons spacing */
+.container button {
+  margin-top: 12px;
+}
+
+.container {
+  text-align: center;
+}

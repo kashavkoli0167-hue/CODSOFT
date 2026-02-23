@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <h1>Create a new quiz</h1>
+
+    <!-- Inputs -->
+    <input type="text" id="quizTitle" placeholder="Quiz title" autocomplete="off" />
+    <textarea id="question" placeholder="question"></textarea>
+
+    <input class="option" placeholder="option 1" />
+    <input class="option" placeholder="option 2" />
+    <input class="option" placeholder="option 3" />
+    <input class="option" placeholder="option 4" />
+
+    <!-- Selector -->
+    <select id="correctAnswer">
+      <option value="">Correct option</option>
+      <option value="0">option 1</option>
+      <option value="1">option 2</option>
+      <option value="2">option 3</option>
+      <option value="3">option 4</option>
+    </select>
+
+    <!-- Buttons -->
+    <button id="addQuestion">Add Question</button>
+    <button id="saveQuiz">Save Quiz</button>
+    <br />
+    <button onclick="window.location.href = 'quiz-list.html'">
+      Back to Quiz List
+    </button>
+  </div>
+  <script src="create-quiz.js"></script>
+</body>
+
+</html>
